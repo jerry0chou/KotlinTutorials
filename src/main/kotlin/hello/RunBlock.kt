@@ -1,18 +1,13 @@
 package hello
-
-fun runBlock(block: ()-> Unit){
+fun runBlock(a: String, block: (String) -> Unit) {
     val start = System.currentTimeMillis()
-    block()
+    block(a)
     println(System.currentTimeMillis() - start)
 }
 
 fun main() {
-    runBlock{
-        val li = List(100){
-            println(it)
-            println("HelloWorld")
-            it*2
-        }
-        println(li)
+
+    runBlock("122"){
+        println(it)
     }
 }
