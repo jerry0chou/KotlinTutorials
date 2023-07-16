@@ -1,4 +1,4 @@
-package expression
+package Expression
 
 typealias FN = (Int) -> Unit
 fun main() {
