@@ -1,4 +1,4 @@
-package BuiltinTypes
+package builtinTypes
 
 fun main() {
     val a = IntArray(5){it*2+1}

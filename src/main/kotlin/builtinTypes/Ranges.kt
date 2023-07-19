@@ -1,4 +1,4 @@
-package BuiltinTypes
+package builtinTypes
 
 fun main() {
 

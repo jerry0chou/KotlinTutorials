@@ -1,4 +1,4 @@
-package Expression
+package expression
 class X {
     val b: Int
         get() = (Math.random()*100).toInt()

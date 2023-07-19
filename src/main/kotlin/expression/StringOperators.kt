@@ -1,4 +1,4 @@
-package Expression
+package expression
 
 operator fun String.minus(right: String) = replace(right, "")
 operator fun String.div(right: Int) = length/right

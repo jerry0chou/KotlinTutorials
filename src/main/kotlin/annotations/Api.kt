@@ -1,12 +1,9 @@
-package Annotations
+package annotations
 
-import java.lang.IllegalArgumentException
 import java.lang.StringBuilder
 import java.lang.reflect.Proxy
-import kotlin.math.log
 import kotlin.reflect.full.findAnnotation
 import kotlin.reflect.full.functions
-import kotlin.reflect.full.memberFunctions
 import kotlin.reflect.full.valueParameters
 
 data class User(

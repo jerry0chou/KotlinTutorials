@@ -1,4 +1,4 @@
-package Expression
+package expression
 
 infix fun String.rotate(count: Int): String {
     val index = count % length
